@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML lesson 2</title>
+</head>
+<body>
+	<style>
+		table{
+			border-collapse: collapse;
+		}
+	</style>
+	<section>
+		<h1>В таблицах использоаны стили для нормального отображения таблицы. Точных пикселей нет</h1>
+	</section>
+	<section>
+		<hr>
+		<br>
+		<h2>Задание №1</h2>
+		<br>
+		<hr>
+		<br>
+		<table border="1" border="blue" bordercolor="blue">
+			<tr>
+				<th>foo</th>
+				<th>bar</th>
+				<th>baz</th>
+			</tr>
+			<tr>
+				<td>
+					<table border="2" bordercolor="orange">
+						<tr>
+							<td>one</td>
+							<td>two</td>
+							<td>three</td>
+						</tr>
+						<tr>
+							<td>four</td>
+							<td>five</td>
+							<td>six</td>
+						</tr>
+						<tr>
+							<td>seven</td>
+							<td>eight</td>
+							<td>nine</td>
+						</tr>
+					</table>
+				</td>
+				<td colspan="2" rowspan="2">
+					<table border="1" bordercolor="coral" height="100">
+						<tr>
+							<td>
+								eins
+							</td>
+							<td>
+								zwei
+							</td>
+							<td rowspan="2">
+								drei<br> 
+								sechs
+							</td>
+						</tr>
+						<tr>
+							<td>
+								vier
+							</td>
+							<td>
+								funf
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					abc
+				</td>
+			</tr>
+		</table>
+		
+		<br>
+		<hr>
+	</section>
+	<section>
+		<hr>
+		<br>
+		<h2>Задание №2</h2>
+		<br>
+		<hr>
+		<table border="1">
+			<caption>Time Table</caption>
+			<tr>
+				<th rowspan="6">Hours</th>
+				<th>Mon</th>
+				<th>Tue</th>
+				<th>Wed</th>
+				<th>Thu</th>
+				<th>Fri</th>
+			</tr>
+			<tr>
+				<td>Science</td>
+				<td>Maths</td>
+				<td>Science</td>
+				<td>Maths</td>
+				<td>Arts</td>
+			</tr>
+			<tr>
+				<td>Social</td>
+				<td>History</td>
+				<td>English</td>
+				<td>Social</td>
+				<td>Sports</td>
+			</tr>
+			<tr>
+				<th colspan="5" align="center">Lunch</th>
+			</tr>
+			<tr>
+				<td>Science</td>
+				<td>Maths</td>
+				<td>Science</td>
+				<td>Maths</td>
+				<td rowspan="2">Project</td>
+			</tr>
+			<tr>
+				<td>Social</td>
+				<td>History</td>
+				<td>English</td>
+				<td>Social</td>
+			</tr>
+		</table>
+		<br>
+		<hr>
+	</section>
+	<section>
+		<hr>
+		<br>
+		<h2>Задание №3</h2>
+		<br>
+		<hr>
+		<form action="#">
+			<table border="1">
+				<tr bgcolor="blue">
+					<th>Name</th>
+					<th>Value</th>
+				</tr>
+				<tr>
+					<td>Name</td>
+					<td>
+						<input type="text">
+					</td>
+				</tr>
+				<tr>
+					<td>Sex</td>
+					<td>
+						<label><input type="radio"> Male</label>
+						<br>
+						<label><input type="radio"> Female</label>
+					</td>
+				</tr>
+				<tr>
+					<td>Eye color</td>
+					<td>
+						<select>
+							<option>grey</option>
+							<option>blue</option>
+							<option>green</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Check all that apply</td>
+					<td>
+						<label><input type="checkbox"> Over 6 feet tall</label>
+						<br>
+						<label><input type="checkbox"> Over 200 pounds</label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<label>Describe your athletic ability: <br>
+							<textarea name="text"  cols="32" rows="5"></textarea></label>
+					</td>
+				</tr>
+				<tr align="center">
+					<td colspan="2">
+						<input type="button" value="Enter my information">
+					</td>
+				</tr>
+			</table>
+		</form>
+		<br>
+		<hr>
+	</section>
+	<section>
+		<hr>
+		<br>
+		<h2>Задание №4</h2>
+		<br>
+		<hr>
+		<h3>Unordered list</h3>
+		<h4>Disc</h4>
+		<ul type="disc">
+			<li>First item</li>
+			<li>Second item</li>
+			<li>Third item</li>
+		</ul>
+		<h4>Square</h4>
+		<ul type="square">
+			<li>First item</li>
+			<li>Second item</li>
+			<li>Third item</li>
+		</ul>
+		<h4>Circle</h4>
+		<ul type="circle">
+			<li>First item</li>
+			<li>Second item</li>
+			<li>Third item</li>
+		</ul>
+		<h4>None - no bullets</h4>
+		<ul type="none">
+			<li>First item</li>
+			<li>Second item</li>
+			<li>Third item</li>
+		</ul>
+		<hr>
+		<h3>Ordered list</h3>
+		<h4>Decimal</h4>
+		<ol type="1">
+			<li>First item</li>
+			<li>Second item</li>
+			<li>Third item</li>
+		</ol>
+		<h4>Decimal with leading zeros</h4>
+		<ol class="decimal-zero">
+			<li>First item</li>
+			<li>Second item</li>
+			<li>Third item</li>
+		</ol>
+		<style>
+			.decimal-zero{
+				list-style-type: decimal-leading-zero;
+			}
+		</style>
+		<h4>Lowercase ascii letters</h4>
+		<ol type="a">
+			<li>First item</li>
+			<li>Second item</li>
+			<li>Third item</li>
+		</ol>
+		<h4>Lowercase roman numerals</h4>
+		<ol type="i">
+			<li>First item</li>
+			<li>Second item</li>
+			<li>Third item</li>
+		</ol>
+		<br>
+		<hr>
+	</section>
+</body>
+</html>

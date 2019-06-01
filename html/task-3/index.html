@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>My portfolio</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#about">Обо мне</a></li>
+				<li><a href="#work">Работы</a></li>
+				<li><a href="#skills">Навыки</a></li>
+				<li><a href="#blog">Блог</a></li>
+				<li><a href="#contact">Контакты</a></li>
+			</ul>
+			
+		</nav>
+		<dialog id="#">
+			Всплывающее окно с формой
+		</dialog>
+		<h1>Страница "Обо мне"</h1>
+		
+	</header>
+	<main>
+		<section id="about">
+			<h2>Информация обо мне</h2>
+			​<picture>
+ 				<source srcset="img/Maxis.png">
+			 	<img src="img/Maxis.jpg" alt="Maxis">
+			</picture>
+			<h3>Образование</h3>
+			<p><time>2015 - 2019</time> КПИ.</p>
+		</section>
+		<section id="work">
+			<h2>Мои работы</h2>
+			<h3>Верстка сайтов</h3>
+			<figure>
+				<img src="img/picture.jpg" alt="Работа" width = "500">
+				<figcaption>
+					Работа была сделана 25.06.2018
+				</figcaption>
+				<h4>Аудио описание работы:</h4>
+				<audio>
+					<source src="audio/audio.mp3">
+					<source src="audio/audio.m4r">
+					Тег audio не поддерживается вашим браузером.
+				</audio>
+			</figure>
+			<figure>
+				<img src="img/picture.jpg" alt="Работа" width = "500">
+				<figcaption>
+					Работа была сделана 25.06.2018
+				</figcaption>
+				<h4>Аудио описание работы:</h4>
+				<audio>
+					<source src="audio/audio.mp3">
+					<source src="audio/audio.m4r">
+					Тег audio не поддерживается вашим браузером.
+				</audio>
+			</figure>
+			<h3>Работа с видео</h3>
+			<video width="500" height="400" controls>
+				<source src="video/Video.ogv">
+				<source src="video/Video.mp4">
+				<source src="video/Video.webm">
+				<source src="video/Video.wav">
+				<!--<track kind="subtitles" src="video/jane.en.srt" srclang="en" label="English">
+				<track kind="subtitles" src="video/jane.ua.srt" srclang="uk" label="Український">
+				<track kind="subtitles" src="video/jane.ru.srt" srclang="ru" label="Русский">-->
+     			Тег video не поддерживается вашим браузером.
+ 			</video>
+		</section>
+		<section id="skills">
+			<h2>Опыт работы с програмным обеспечением</h2>
+			<table border="1">
+				<tr>
+					<th>Графические редакторы</th>
+					<th>Программы для работы с кодом</th>
+				</tr>
+				<tr>
+					<td>
+						<ul>
+							<li> Photoshop <meter value="75" max="100"></li>
+							<li>Illustrator <meter value="25" max="100"></li>	
+					</ul>
+					</td>
+					<td>
+						<ul>
+							<li> Sablime Text 3 <meter value="75" max="100"></li>
+							<li>WebStorm <meter value="25" max="100"></li>	
+						</ul>
+					</td>
+				</tr>
+			</table>
+			
+		</section>
+		<section id="blog">
+			<h2>Блог</h2>
+			<aside>
+			   	<p>Какая то статья</p>
+			   	<p>Какая то статья</p>
+			   	<p>Какая то статья</p>
+			</aside>
+			<article>
+				<h3>Какая то статья</h3>
+				<p>Lorem ipsum<mark>Выделенный текст</mark> dolor sit amet, consectetur adipisicing elit. Et, eum. Quibusdam eum, accusantium hic? Natus corporis inventore itaque ipsum aperiam incidunt, nesciunt labore dolor? Ut, consequatur, minus. Voluptatum, necessitatibus, animi.</p>
+			</article>
+			<article>
+				<h3>Какая то статья</h3>
+				<p>Lorem ipsum dolor sit amet, <wbr> consectetur adipisicing elit. Et, eum. Quibusdam eum, accusantium hic? Natus corporis inventore itaque<mark>Выделенный текст</mark> ipsum aperiam incidunt, nesciunt labore dolor? Ut, consequatur, minus. Voluptatum, necessitatibus, animi.</p>
+			</article>
+			<article>
+				<h3>Какая то статья</h3>
+				<p>Lorem ipsum dolor sit amet, <wbr>consectetur adipisicing elit. Et, eum. Quibusdam eum, accusantium hic? Natus corporis inventore itaque ipsum aperiam incidunt, nesciunt <mark>Выделенный текст</mark>labore dolor? Ut, consequatur, minus. Voluptatum, necessitatibus, animi.</p>
+			</article>
+		</section>
+		<section id="contact">
+			Тел: +380 99 251 23 16
+			Почта: pml06011998@gmail.com
+			<details>
+			<summary>Дополнительная информация</summary>
+			Доп.почта: p.massimo0601@gmail.com
+			</details>
+			<form action="#">
+				<label>Введите имя: <input type="text"></label>
+				<label>Укажите свою страну:
+					<input list="character">
+   					<datalist id="character">
+   						<option value="Украина"></option>
+    					<option value="Белоруссия"></option>
+    					<option value="Молдова"></option>
+   					</datalist>
+   				</label>
+   				<label>
+   					Что выхотели сообщить: <br>
+					<textarea name="text"  cols="32" rows="5"></textarea>
+				</label>
+				<input type="button" value="Отправить">
+				<output name="result" hidden>Форма отправлена</output>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>2019 / Все права защищены</p>
+	</footer>
+</body>
+</html>

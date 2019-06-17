@@ -1,0 +1,130 @@
+/*--------------------------------------------------------------
+Header style
+----------------------------------------------------------------*/
+*{
+	margin:0;
+	padding: 0;
+}
+a{
+	color: #007FFF;
+}
+a:hover{
+	color: #666;
+}
+body{
+	font-family: Georgia,serif;
+	background: -moz-linear-gradient(top, rgba(25,132,168,1) 0%, rgba(26,134,170,1) 1%, rgba(74,194,230,1) 38%, rgba(222,205,51,1) 61%, rgba(230,210,28,1) 100%);
+	color: #333;
+	padding: 20px 0;
+}
+header{
+	background-color: #fff;
+	display: block;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	width: 80%;
+	margin: 0 auto;
+}
+nav{
+	background-color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 10px;
+	padding: 20px;
+	overflow: auto;
+	border-bottom: 1px solid #000;
+}
+h1,h2{
+	color: #1984a8;
+	text-shadow: 0 1px 0 #FFF;
+}
+h1{
+	font-size: 100px;
+	text-align: center;
+}
+h2{
+	font-size: 22px;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	padding-top: 20px;
+	display: none;
+}
+nav ul li{
+	display: block;
+	float: left;
+	width: 29%;
+	padding: 1%;
+	margin: 1%;
+	border: 1px solid #ccc;
+}
+nav ul li a,nav ul li a:visited{
+	color: #000;
+	text-decoration: none;
+}
+nav ul li a:last-child,nav ul li a:last-child:visited{
+	color: #000;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: #1984a8;
+	text-decoration: underline;
+}
+nav ul li a:last-child:hover{
+	color: #e6d21c;
+	text-decoration: underline;
+}
+nav:hover>ul{
+	display: block;
+}
+article{
+	width: 70%;
+	margin: 0 auto;
+	background: #fff;
+	padding: 2% 5%;
+}
+article header{
+	width: 100%;
+	border-radius: 0;
+}
+article h2{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	color: #1984a8;
+}
+
+section a{
+	color: #1984a8;
+	text-decoration: none;
+}
+
+section a:hover, section a:visited{
+	color: #e6d21c;
+	text-decoration: underline;
+}
+
+ol{
+	margin-left: 40px; 
+	margin-bottom: 20px;
+}
+footer{
+	background-color: #fff;
+	width: 76%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 2%;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+footer a {
+	color: #1984a8;
+	text-decoration: none;
+}
+
+footer a:hover, footer a:visited{
+	color: #e6d21c;
+	text-decoration: underline;
+} 

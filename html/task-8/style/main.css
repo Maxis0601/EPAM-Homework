@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	
+}
+
+.container {
+	width: 1332px;
+	height: 978px;
+	margin: auto;
+	background-image: url("../img/back-big.png");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inventary {
+	width: 540px;
+	height: 790px;
+	background-image: url("../img/bg_item.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.gold{
+	width: 160px; 
+	height: 70px;
+	background: #fff;
+}
+
+.inventary-panel{
+	
+}
+
+
+
+
+.equipment {
+	width: 540px;
+	height: 790px;
+	background-image: url("../img/bg_item-right.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}

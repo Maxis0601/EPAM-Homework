@@ -7,17 +7,87 @@ body{
 	
 }
 
+img {
+	width: 100%;
+	height: 100%;
+}
+
+/*-------------------------------------------------------------------
+Buttons
+--------------------------------------------------------------------*/
+
+.button-arrowsalt{
+	
+}
+
+.button-circlebig{
+	display: block;
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	
+}
+
+.button-circlebigred{
+	background: linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(144, 16, 0) 68%, rgb(111, 12, 0) 100%);
+	position: absolute;
+	top: -65px;
+	left: -145px;
+}
+
+.button-circlebigblue{
+	background: linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(3, 0, 119) 68%, rgb(0, 33, 111) 100%);
+	position: absolute;
+	top: -65px;
+	right: -145px;
+}
+
+.button-ban{
+
+}
+
+/*-------------------------------------------------------------------
+Elements
+---------------------------------------------------------------------*/
+
+
+
+
+/*-----------------------------------------------------------------
+Grid
+-------------------------------------------------------------------*/
+
+.box{
+	width: 45px;
+	height: 45px;
+	background: #000;
+	opacity: 0.5;
+	border: 1px solid red;
+
+}
+
+/*------------------------------------------------------------------
+Background
+-------------------------------------------------------------------*/
+
 .container {
 	width: 1332px;
 	height: 978px;
 	margin: auto;
 	background-image: url("../img/back-big.png");
+	
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
 	align-items: center;
 }
 
-.inventary {
+.container-inventory{
+	margin-top: 95px;
+	margin-bottom: 10px;
+	display: flex;
+}
+
+.inventory {
 	width: 540px;
 	height: 790px;
 	background-image: url("../img/bg_item.png");
@@ -27,21 +97,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
 }
-
-.gold{
-	width: 160px; 
-	height: 70px;
-	background: #fff;
-}
-
-.inventary-panel{
-	
-}
-
-
-
 
 .equipment {
 	width: 540px;
@@ -49,4 +105,207 @@ body{
 	background-image: url("../img/bg_item-right.png");
 	background-size: contain;
 	background-repeat: no-repeat;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
+
+.footer{
+	width: 950px;
+	height: 85px;
+	background: coral;
+	display: flex;
+}
+
+.footer-life{
+	position: relative;
+	width: 430px;
+}
+
+.footer-center{
+	width: 90px;
+	height: 85px;
+	background: url("../img/footer-center.png") no-repeat top center;
+	background-size: contain;
+}
+
+.footer-potion{
+	position: relative;
+	width: 430px;
+}
+
+
+/*----------------------------------------------------------------
+Inventory
+---------------------------------------------------------------*/
+
+.inventoty-gold{
+	width: 300px; 
+	height: 80px;
+	background: coral;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+
+.inventory-panel{
+	width: 490px;
+	height: 490px;
+	background: coral;
+	display: flex;
+	flex-flow: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+/*-----------------------------------------------------------------
+Equipment
+-------------------------------------------------------------------*/
+
+.equipment-things {
+	width: 490px;
+	height: 345px;
+
+	display: flex;
+	flex-flow: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.equipment-inventory {
+	width: 490px;
+	height: 300px;
+	background: coral;
+
+	display: flex;
+	flex-flow: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.things-inventory, .things-items, .things-ring, .things-potion{
+	height: 345px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.things-inventory{
+	width: 110px;
+	background: #fff;
+}
+
+.things-items {
+	width: 110px;
+	background: #fff;
+}
+
+.things-ring {
+	width: 40px;
+	background: #fff;
+}
+
+.things-potion {
+	width: 40px;
+	background: #fff;
+}
+
+.staff{
+	height: 230px;
+	width: 110px;
+	background: #000;
+}
+
+.gloves, .boots {
+	height: 110px;
+	width: 110px;
+	background: #000;
+}
+
+.mantle {
+	width: 110px;
+	height: 165px;
+	background: #000;
+}
+
+.belt, .necklace {
+	width: 110px;
+	height: 80px;
+	background: #000;
+}
+
+
+
+
+/*----------------------------------------------------------------------
+Button click
+-----------------------------------------------------------------------*/
+
+.slider, .slider1 {
+	position: relative;
+	border-radius: 25px 25px 0 0;
+	text-align: center;
+	margin: auto;
+}
+
+
+.slide {
+	width: auto;
+	padding: 0 0 5% 0;
+}
+
+.slide img {
+	width: 100%;
+	height: 100%;
+}
+
+#slide-1:checked ~ .slide-1 {
+	display: block;
+}
+
+#slide-1:checked ~ .slide-2 {
+	display: none;
+}
+
+#slide-2:checked ~ .slide-2 {
+	display: block;
+}
+
+#slide-2:checked ~ .slide-1 {
+	display: none;
+}
+
+.slide1 {
+	width: auto;
+	padding: 0 0 5% 0;
+}
+
+.slide1 img {
+	width: 100%;
+	height: 100%;
+}
+
+#slide-3:checked ~ .slide-3 {
+	display: block;
+}
+
+#slide-3:checked ~ .slide-4 {
+	display: none;
+}
+
+#slide-4:checked ~ .slide-4 {
+	display: block;
+}
+
+#slide-4:checked ~ .slide-3 {
+	display: none;
+}
+
+	
+
+
+
+

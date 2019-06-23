@@ -50,7 +50,102 @@ Buttons
 Elements
 ---------------------------------------------------------------------*/
 
+.cube {
+	grid-column: span 2;
+	grid-row: span 2;
+	background: url("../img/cube.png") no-repeat center center;
+	background-size: contain;
+}
 
+.runa {
+	background: url("../img/runa.png") no-repeat center center;
+	background-size: contain;
+}
+
+.runa-time {
+	background: url("../img/runa-time.png") no-repeat center center;
+	background-size: contain;
+}
+
+.runa-branch {
+	background: url("../img/runa-branch.png") no-repeat center center;
+	background-size: contain;
+}
+
+.runa-fire {
+	background: url("../img/runa-fire.png") no-repeat center center;
+	background-size: contain;
+}
+
+.runa-pear {
+	background: url("../img/runa-pear.png") no-repeat center center;
+	background-size: contain;
+}
+
+.orange-ring{
+	background: url("../img/orange-ring.png") no-repeat center center;
+	background-size: contain;
+}
+
+.helmet-big{
+	grid-column: span 2;
+	grid-row: span 2;
+	background: url("../img/helmet-big.png") no-repeat center center;
+	background-size: contain;
+}
+
+.life {
+	background: url("../img/life.png") no-repeat center center;
+	background-size: contain;
+}
+
+.runa-cristall {
+	background: url("../img/runa-cristall.png") no-repeat center center;
+	background-size: contain;
+}
+
+.runa-fang {
+	background: url("../img/runa-fang.png") no-repeat center center;
+	background-size: contain;
+}
+
+.head {
+	background: url("../img/head.png") no-repeat center center;
+	background-size: contain;
+}
+
+.almaz-green {
+	background: url("../img/almaz-green.png") no-repeat center center;
+	background-size: contain;
+}
+
+.almaz-yellow {
+	background: url("../img/almaz-yellow.png") no-repeat center center;
+	background-size: contain;
+}
+
+.medal {
+	background: url("../img/medal.png") no-repeat center center;
+	background-size: contain;
+}
+
+.blue-book {
+	grid-row: span 2;
+	background: url("../img/blue-book.png") no-repeat center center;
+	background-size: contain;
+}
+
+.gold-book {
+	grid-row: span 2;
+	background: url("../img/gold-book.png") no-repeat center center;
+	background-size: contain;
+
+}
+
+.eye {
+	background: url("../img/eye.png") no-repeat center center;
+	background-size: contain;
+}
 
 
 /*-----------------------------------------------------------------
@@ -58,11 +153,7 @@ Grid
 -------------------------------------------------------------------*/
 
 .box{
-	width: 45px;
-	height: 45px;
-	background: #000;
-	opacity: 0.5;
-	border: 1px solid red;
+	border: 1px solid #fff;
 
 }
 
@@ -143,19 +234,23 @@ Inventory
 .inventoty-gold{
 	width: 300px; 
 	height: 80px;
-	background: coral;
+	background: rgba(0, 0, 0, 0.7);
 	margin-top: 40px;
 	margin-bottom: 15px;
+}
+
+.gold-max {
+	width: 100%;
 }
 
 .inventory-panel{
 	width: 490px;
 	height: 490px;
-	background: coral;
-	display: flex;
-	flex-flow: wrap;
-	align-items: center;
-	justify-content: center;
+	background: rgba(0, 0, 0, 0.7);
+
+	display: grid;
+	grid-template-columns: repeat(10, 49px);
+	grid-template-rows: repeat(10, 49px);
 }
 
 /*-----------------------------------------------------------------
@@ -175,12 +270,11 @@ Equipment
 .equipment-inventory {
 	width: 490px;
 	height: 300px;
-	background: coral;
+	background: rgba(0, 0, 0, 0.7);
 
-	display: flex;
-	flex-flow: wrap;
-	align-items: center;
-	justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(10, 49px);
+	grid-template-rows: repeat(10, 49px);
 }
 
 
@@ -205,12 +299,16 @@ Equipment
 
 .things-ring {
 	width: 40px;
-	background: #fff;
+	justify-content: flex-end;
 }
 
 .things-potion {
 	width: 40px;
-	background: #fff;
+	justify-content: flex-end;
+}
+
+.staff, .gloves, .boots, .mantle, .belt, .necklace, .ring, .potion{
+	border: 1px solid #fff;
 }
 
 .staff{
@@ -237,6 +335,15 @@ Equipment
 	background: #000;
 }
 
+.ring, .potion{
+	width: 40px;
+	height: 40px;
+	background: #000;
+}
+
+.potion {
+	margin-top: 220px;
+}
 
 
 

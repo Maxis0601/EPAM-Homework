@@ -16,10 +16,6 @@ img {
 Buttons
 --------------------------------------------------------------------*/
 
-.button-arrowsalt{
-	
-}
-
 .button-circlebig{
 	display: block;
 	width: 130px;
@@ -42,8 +38,47 @@ Buttons
 	right: -145px;
 }
 
-.button-ban{
+.gear-btn{
+	display: block;
+	text-decoration: none;
+	width: 50px;
+	height: 50px;
+	background: url("../img/gear-btn.png") no-repeat center center;
+	background-size: contain;
+}
 
+.btn-add{
+	display: block;
+	text-decoration: none;
+	width: 50px;
+	height: 50px;
+	background: url("../img/btn-add.png") no-repeat center center;
+	background-size: contain;
+}
+
+.btn{
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	bottom: 1px;
+	z-index: 1;
+	width: 35px;
+	padding: 0;
+	border: 1px solid #fff;
+	background: url("../img/money.png") no-repeat center center;
+	background-size: contain;
+
+}
+
+.heath-button {
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	bottom: 1px;
+	width: 30px;
+	padding: 0;
+	background: url("../img/man.png") no-repeat center center;
+	background-size: contain;
 }
 
 /*-------------------------------------------------------------------
@@ -56,6 +91,15 @@ Elements
 	background: url("../img/cube.png") no-repeat center center;
 	background-size: contain;
 }
+
+.cube:hover::after {
+    content: 'Какой то текст подсказки, используется для того чтобы описать какойто передмет, или что то в этом роде';
+    z-index: 2; /* Отображаем подсказку поверх других элементов */
+    background: rgba(0,0,0,0.7); /* Полупрозрачный цвет фона */
+    font-size: 11px; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    color: #fff;
+   }
 
 .runa {
 	background: url("../img/runa.png") no-repeat center center;
@@ -205,13 +249,16 @@ Background
 .footer{
 	width: 950px;
 	height: 85px;
-	background: coral;
 	display: flex;
 }
 
 .footer-life{
 	position: relative;
 	width: 430px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .footer-center{
@@ -224,6 +271,9 @@ Background
 .footer-potion{
 	position: relative;
 	width: 430px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 
@@ -239,9 +289,24 @@ Inventory
 	margin-bottom: 15px;
 }
 
-.gold-max {
+.gold-max, .mygold {
 	width: 100%;
+	height: 35px;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.7);
+	font-size: 25px;
 }
+
+.gold-price {
+	position: relative;
+}
+
+.mygold {
+	position: relative;
+	display: block;
+	margin-bottom: 10px;
+}
+
 
 .inventory-panel{
 	width: 490px;
@@ -251,6 +316,14 @@ Inventory
 	display: grid;
 	grid-template-columns: repeat(10, 49px);
 	grid-template-rows: repeat(10, 49px);
+}
+
+.inventory-button{
+	width: 490px;
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 18px;
+	padding-right: 15px;
 }
 
 /*-----------------------------------------------------------------
@@ -277,6 +350,26 @@ Equipment
 	grid-template-rows: repeat(10, 49px);
 }
 
+.equipment-gold{
+	width: 490px;
+	height: 70px;
+	position: relative;
+}
+
+
+
+.gold-eq{
+	position: absolute;
+	width: 250px;
+	top: -40px;
+	left: 100px;
+}
+
+.gold-eqitem {
+	left: 100px;
+	top: -40px;
+	height: 37px;
+}
 
 
 .things-inventory, .things-items, .things-ring, .things-potion{
@@ -289,12 +382,10 @@ Equipment
 
 .things-inventory{
 	width: 110px;
-	background: #fff;
 }
 
 .things-items {
 	width: 110px;
-	background: #fff;
 }
 
 .things-ring {
@@ -318,7 +409,7 @@ Equipment
 }
 
 .gloves, .boots {
-	height: 110px;
+	height: 105px;
 	width: 110px;
 	background: #000;
 }
@@ -412,7 +503,55 @@ Button click
 }
 
 	
+/*--------------------------------------------------------------------
+Footer element
+---------------------------------------------------------------------*/
 
+.btn-f9{
+	width: 85px;
+	height: 85px;
+}
 
+.life-panel{
+	width: 200px;
+	height: 85px;
 
+	display: flex;
+	flex-direction: column;
+}
 
+.heath {
+	position: relative;
+}
+
+meter {
+	width: 100%;
+	height: 5px;
+	margin: 10px 0;
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.heath-item {
+	width: 100%;
+	height: 38px;
+	border: 1px solid #fff;
+	background: #ffa500;
+}
+
+.potion-life{
+	display: flex;
+
+}
+
+.potion-item {
+	display: flex;
+	align-items: flex-end;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #fff;
+	margin: 1px;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+}

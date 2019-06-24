@@ -14,8 +14,11 @@
 			<div class="container-inventory">
 				<div id="inventory" class="inventory" >
 					<div class="inventoty-gold">
-						<form action="#" method="post">
-							<input type="text">
+						<form action="#" method="post" class="gold-price">
+							<input class="mygold" type="text" placeholder="          1298386">
+							<button class="btn mygold-item" value="Search"></button>
+						</form>
+						<form action="#" method="post" class="gold-pricemax">
 							<input class="gold-max" type="text" placeholder="Gold Max: 1800000">
 						</form>
 					</div>
@@ -120,6 +123,9 @@
 						<div class="box"></div>
 						<div class="box"></div>
 						<div class="box"></div>
+					</div>
+					<div class="inventory-button">
+						<a href="#" class="gear-btn"></a>
 					</div>
 				</div>
 				<div id="equipment" class="equipment">
@@ -247,15 +253,45 @@
 						<div class="box"></div>
 						<div class="box medal"></div>
 					</div>
+					<div class="equipment-gold">
+						<a href="#" class="gear-btn"></a>
+						<form action="#" method="post" class="gold-price">
+							<input class="mygold gold-eq" type="text" placeholder="     0">
+							<button class="btn gold-eqitem" value="Search"></button>
+						</form>
+					</div>
 				</div>
 			</div>
 			<div class="footer">
 				<div class="footer-life">
 					<a href="#" class="button-circlebig button-circlebigred"></a>
+					<div class="btn-f9">
+						<img src="img/btn-f9.png" alt="btn">
+					</div>
+					<a href="#" class="btn-add"></a>
+					<div class="life-panel">
+						<div class="life-spead">
+							<meter value="25" max="100" low="0">
+						</div>
+						<form action="#" method="post" class="heath">
+							<input class="heath-item" type="text">
+							<button class="heath-button" value="Search"></button>
+						</form>
+					</div>
 				</div>
 				<div class="footer-center"></div>
 				<div class="footer-potion">
-					<a href="#" class="button-circlebig button-circlebigblue">
+					<a href="#" class="button-circlebig button-circlebigblue"></a>
+					<div class="potion-life">
+						<div class="potion-item life">1</div>
+						<div class="potion-item life">2</div>
+						<div class="potion-item life">3</div>
+						<div class="potion-item life">4</div>
+					</div>
+					<a href="#" class="btn-add"></a>
+					<div class="btn-f9">
+						<img src="img/btn-f9.png" alt="btn">
+					</div>
 				</div>
 			</div>
 		</div>

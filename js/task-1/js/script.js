@@ -1,21 +1,34 @@
 
-function* fibo() {
-  	[a, b] = [0, 1]
-  	while (true) {
-    	yield a;
-    	[a, b] = [b, a + b]
-  	}
+function* fibo(user) {
+  	var a,b,c;
+    if (user.flag == 'yes'){
+        [a,b] = [0, 1] 
+        while (true) {
+            yield a;
+            [a,b] = [b, a + b];
+        }
+    } else {
+        [a, b] = [0, -1]
+        while (true) {
+          yield a;
+          [a,b] = [b, a - b];
+        }
+    }
+   
 }
 
 
 do {
-	var n = prompt("Введите число:")
 
-	var fib = fibo();
+  var user = {
+      n: prompt("Введите число:"),
+      flag: prompt("Выберете направление, yes - положительное, остальные варианты отрецательное")
+  }
 
 
+  var fib = fibo(user);
 
-	for (let i = 0; i < n; i++) {
+	for (let i = 0; i < user.n; i++) {
   		console.log(fib.next().value);
 	}
 

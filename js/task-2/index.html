@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Угадайка</title>
+  </head>
+  <body>
+      <h1>Угадайка</h1>
+      <p>Мы выбрали случайное число от 1 до 100. Посмотрим, сможете ли вы угадать его за 10 ходов или меньше. Мы сообщим вам, была ли ваша догадка слишком высокой или слишком низкой.</p>
+      <div class="form"> 
+        <label for="guessField">Введите вашу догадку:</label>
+        <input type="text" id="guessField" class="guessField">  
+        <input type="submit" value="Отправить догадку" class="guessSubmit"> 
+      </div>
+      <div class="resultParas">
+          <p class="guesses"></p>
+          <p class="lastResult"></p>
+          <p class="lowOrHi"></p>
+      </div>
+      <script src="script.js"></script>
+  </body>
+</html>

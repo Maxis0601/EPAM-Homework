@@ -1,0 +1,110 @@
+html{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+
+body{
+	background-color: #000;
+	color: #ddd;
+	font-family: Arial;
+	margin: 0;
+}
+
+#content{
+	width: 800px;
+	margin: 0 auto; 
+}
+
+.history-box{
+	width: 100%;
+	display: flex;
+}
+
+.users-history{
+	width: 50%;
+}
+
+.computer-history {
+	width: 50%;
+}
+
+.title-page {
+	text-align: center;
+	color: #fe2e2e;
+}
+
+.center-rule {
+	text-align: center;
+}
+
+.cite{
+	width: 90%;
+	color: #fa5858;
+	font-size: 1.2em;
+	text-align: center;
+	margin: 5px auto;
+}
+
+a{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.yes-game{	
+	color: #fa5858; 
+}
+
+.yes-game:visited {	
+	color: #fa5858; 
+}
+
+.no-game{
+	margin-left: 560px;
+	color: #0080ff;
+}
+
+.block-center{
+	width: 100%;
+	text-align: center;
+}
+
+.start-game{
+	border: 3px solid #888;
+	border-radius: 5px;
+	width: 200px;
+	height: 50px;
+	color: #fa5858;
+	font-size: 1.2em;
+	font-weight: bold;
+	background-color: #666;
+	cursor: pointer;
+}
+
+.logs {
+	float: left;
+	width: 600px;
+}
+
+.logs h2{
+	color: #fa5858;
+}
+
+
+.move-number {
+	float: left;
+	width: 150px;
+	color: #fa5858;
+	text-align: center;
+}
+
+.move-number p {
+	font-size: 4em;
+	color: #0080ff;
+	font-weight: 900;
+}
+
+.hint{
+	font-size: 2em;
+}

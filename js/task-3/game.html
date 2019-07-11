@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+	<title>Угадайка v.0.1.</title>
+	<!-- Здесь даём различные указания браузеру, например: -->
+	<meta charset="utf-8"> <!-- указываем кодировку документа -->
+	<link rel="stylesheet" href="style.css">
+	<script src="game.js"></script>
+</head>
+<body>
+	<div id="content" class="content">
+		<h1 class="title-page">Правильный выбор!</h1>
+			<p class="block-center">Как будешь готов, нажми кнопку.</p>
+			<div class="block-center">
+				<button class="start-game" onClick="newGame();">НАЧАТЬ ИГРУ!</button>
+			</div>
+
+			<div class="history-box">
+				<div class="users-history">
+					<div class="logs">
+						<h2>История пользователя</h2>
+						<ol id="list-logsUser">
+							<li value="0">Игра ещё не началась!</li>
+						</ol>
+					</div>
+					<div class="move-number">
+						<h2>Ход</h2>
+						<p id="numberUser">0</p>
+					</div>
+					
+					<p class="hintUser block-center"> </p>
+				</div>
+
+				<div class="computer-history">
+					<div class="logs">
+						<h2>История компьютера</h2>
+						<ol id="list-logsComputer">
+							<li value="0">Игра ещё не началась!</li>
+						</ol>
+					</div>
+					<div class="move-number">
+						<h2>Ход</h2>
+						<p id="numberComputer">0</p>
+					</div>
+					
+					<p class="hintComputer block-center"> </p>
+				</div>
+			</div>
+			
+		
+			
+	</div>
+</body>
+</html>

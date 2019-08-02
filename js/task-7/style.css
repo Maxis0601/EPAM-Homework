@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: lightgrey;
+}
+
+header {
+	text-align: center;
+	text-decoration: underline;
+}
+
+header ul, header ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0
+}
+
+header ul {
+	display: flex;
+	justify-content: center;
+}
+
+header ul li {
+	padding: 10px 20px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+header ul li:hover {
+	color: blue;
+}
+
+.users {
+	max-width: 800px;
+	margin: 20px auto;
+}
+
+.user {
+	border: 2px solid grey;
+	background: white;
+	max-width: 800px;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.post {
+	margin: 20px auto;
+	padding: 10px;
+	max-width: 800px;
+	border: 2px solid gray;
+	background: #eaedf2;
+	font-family: serif;
+	font-weight: 100;
+	text-align: justify;
+	background: white;
+	border-radius: 5px;
+}
+
+.post h2 {
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+	text-align: center;
+	font-family: serif;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+main button {
+	width: 200px;
+	height: 40px;
+	margin: 20px 0 40px;
+	margin-left: calc(50% - 100px);
+	cursor: pointer;
+}
+
+
+.comments {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.comments .comment {
+	padding: 10px;
+	border-bottom: 1px solid black;
+}
+
+.comments .comment:first-child {
+	border-top: 1px solid black;
+}
+
+.comments .comment .comment-email {
+	width: 100%;
+	text-align: right;
+	font-family: serif;
+}
+
+.comments .comment .comment-name {
+	padding: 10px 0;
+	font-family: serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+a.top {
+	display: block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background: white;
+	position: fixed;
+	right: 20px;
+	bottom: 40px;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	text-shadow: 1px 1px 3px gray;
+	line-height: 80px;
+	text-align: center;
+	border: 2px solid black;
+}

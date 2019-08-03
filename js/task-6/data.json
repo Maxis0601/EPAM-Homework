@@ -1,0 +1,1209 @@
+﻿{
+  "header": {
+    "h1": "CSS1K",
+    "nav": {
+      "h2": "Select a design",
+      "ul": {
+        "li": [
+          {
+            "a": [
+              {
+                "@href": "./",
+                "#text": "Default"
+              },
+              {
+                "@href": "http://twitter.com/jacobrask",
+                "#text": "Jacob Rask"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#stripes",
+                "#text": "Stripes"
+              },
+              {
+                "@href": "http://vasilis.nl",
+                "#text": "Vasilis van Gemert"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#notepad",
+                "#text": "Notepad"
+              },
+              {
+                "@href": "http://twitter.com/eworm_",
+                "#text": "Wout Mager"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#gardenof3den",
+                "#text": "Garden of CSS-3Den"
+              },
+              {
+                "@href": "http://designfestival.com",
+                "#text": "Alex Walker"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#bbubles",
+                "#text": "Bbubles"
+              },
+              {
+                "@href": "http://cssing.org.ua",
+                "#text": "akella & Genn"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#swiss",
+                "#text": "Swiss"
+              },
+              {
+                "@href": "http://chrsl.net",
+                "#text": "Chris Lee"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#turnaround",
+                "#text": "Turn around"
+              },
+              {
+                "@href": "http://www.basvandorst.nl",
+                "#text": "Bas van Dorst"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#whirl",
+                "#text": "Whirl"
+              },
+              {
+                "@href": "https://twitter.com/iamvdo",
+                "#text": "Vincent De Oliveira"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#bundler_inspired",
+                "#text": "BundlerInspired"
+              },
+              {
+                "@href": "https://github.com/PhilG",
+                "#text": "PhilG"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#oldie",
+                "#text": "Oldie"
+              },
+              {
+                "@href": "http://pointlessone.org",
+                "#text": "Alexander Mankuta"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#typhon",
+                "#text": "Typhon"
+              },
+              {
+                "@href": "http://eswat.ca",
+                "#text": "ESWAT"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#cube",
+                "#text": "Cube"
+              },
+              {
+                "@href": "http://be.net/iurevych",
+                "#text": "Sergii Iurevych"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#northern-lights",
+                "#text": "Northern Lights"
+              },
+              {
+                "@href": "http://potapoff.org",
+                "#text": "Igor «SkAZi» Potapov"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#skewed",
+                "#text": "Skewed"
+              },
+              {
+                "@href": "http://twitter.com/sntxrrr",
+                "#text": "Paul Steffens"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#moonlight",
+                "#text": "Moonlight"
+              },
+              {
+                "@href": "http://twitter.com/derSchepp",
+                "#text": "Christian \"Schepp\" Schaefer"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#typewriter",
+                "#text": "Typewriter"
+              },
+              {
+                "@href": "http://thisbythem.com",
+                "#text": "Lance Alton Troxel"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#oldschool",
+                "#text": "Old School"
+              },
+              {
+                "@href": "http://romanliutikov.com",
+                "#text": "Roman Liutikov"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#butchery",
+                "#text": "Butchery"
+              },
+              {
+                "@href": "http://vibby.fr",
+                "#text": "Vibby"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#m6tt",
+                "#text": "m6tt"
+              },
+              {
+                "@href": "http://m6tt.com",
+                "#text": "Matt Woodfield"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#1024-bytes",
+                "#text": "1024-bytes"
+              },
+              {
+                "@href": "http://github.com/faisalman",
+                "#text": "Faisalman"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#molokai",
+                "#text": "Molokai"
+              },
+              {
+                "@href": "http://designtomarkup.com",
+                "#text": "Kien Nguyen"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#android",
+                "#text": "Android"
+              },
+              {
+                "@href": "http://agat.in",
+                "#text": "Aleksej Romanovskij"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#bookshelf",
+                "#text": "Bookshelf"
+              },
+              {
+                "@href": "https://github.com/SelenIT",
+                "#text": "SelenIT"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#geocities",
+                "#text": "GeoCities"
+              },
+              {
+                "@href": "https://github.com/asavartsov/",
+                "#text": "Alexey Savartsov"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#imbatman",
+                "#text": "I'm Batman"
+              },
+              {
+                "@href": "#",
+                "#text": "Paul Reid"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#ebhoren",
+                "#text": "Ebhoren"
+              },
+              {
+                "@href": "http://www.dominic-mercier.com",
+                "#text": "Dominic Mercier"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#facetime",
+                "#text": "Facetime"
+              },
+              {
+                "@href": "http://twitter.com/bnijenhuis",
+                "#text": "Bernard Nijenhuis"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#cloudy",
+                "#text": "Cloudy"
+              },
+              {
+                "@href": "http://twitter.com/putnik",
+                "#text": "Sergey Leschina"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#greymatter",
+                "#text": "Grey Matter"
+              },
+              {
+                "@href": "http://pepelsbey.net",
+                "#text": "Vadim Makeev"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#blue_square",
+                "#text": "Blue square"
+              },
+              {
+                "@href": "http://twitter.com/hsablonniere",
+                "#text": "Hubert Sablonnière"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#helvetipink",
+                "#text": "HelvetiPink"
+              },
+              {
+                "@href": "http://billkeller.name",
+                "#text": "Bill Keller"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#summersun",
+                "#text": "Summer Sun"
+              },
+              {
+                "@href": "http://twitter.com/tanya_peasgood",
+                "#text": "Tanya Peasgood"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#lessismore",
+                "#text": "Less is More"
+              },
+              {
+                "@href": "http://twitter.com/rob_balfre",
+                "#text": "Rob Balfre"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#inset",
+                "#text": "Inset"
+              },
+              {
+                "@href": "http://www.hachemuda.com",
+                "#text": "Guillermo Latorre"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#legible",
+                "#text": "Legible"
+              },
+              {
+                "@href": "http://lumens.se",
+                "#text": "Reimund Trost"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#greenlemon",
+                "#text": "Green Lemon"
+              },
+              {
+                "@href": "http://twitter.com/d_radunz",
+                "#text": "Dirk Radunz"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#wired",
+                "#text": "Wired"
+              },
+              {
+                "@href": "http://www.digitalwaxworks.com",
+                "#text": "Brett DeWoody"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#narcissist",
+                "#text": "Narcissist"
+              },
+              {
+                "@href": "http://jackiebalzer.com",
+                "#text": "Jackie Balzer"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#juizstar",
+                "#text": "Juiz Star"
+              },
+              {
+                "@href": "http://www.creativejuiz.fr",
+                "#text": "Geoffrey Crofte"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#wolfr",
+                "#text": "Wolfr"
+              },
+              {
+                "@href": "http://twitter.com/wolfr_",
+                "#text": "Johan Ronsse"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#fortyeight1k",
+                "#text": "fortyeight1k"
+              },
+              {
+                "@href": "http://michael.haschke.biz",
+                "#text": "Michael Haschke"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#columns",
+                "#text": "Columns"
+              },
+              {
+                "@href": "http://rmcreative.ru",
+                "#text": "Alexander Makarov"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#trainspotting",
+                "#text": "Trainspotting"
+              },
+              {
+                "@href": "http://www.hboaventura.com",
+                "#text": "Henrique Boaventura"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#ribbon",
+                "#text": "ribbon"
+              },
+              {
+                "@href": "http://oodavid.com",
+                "#text": "David King"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#solarized",
+                "#text": "Solarized"
+              },
+              {
+                "@href": "http://twitter.com/heirenton",
+                "#text": "heirenton"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#openwater",
+                "#text": "Open Water"
+              },
+              {
+                "@href": "https://github.com/gilmoreorless",
+                "#text": "Gilmore Davidson"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#html5colors",
+                "#text": "HTML5 Colors"
+              },
+              {
+                "@href": "http://www.theweblife.com",
+                "#text": "Michael Garrett Jones"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#heart_css",
+                "#text": "heart css"
+              },
+              {
+                "@href": "https://github.com/kjchoy",
+                "#text": "Choy Kum Jin"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#sourcy",
+                "#text": "Sourcy"
+              },
+              {
+                "@href": "http://kizu.ru/en/",
+                "#text": "Roman Komarov"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#terminal",
+                "#text": "Terminal"
+              },
+              {
+                "@href": "http://twitter.com/PanyaKor",
+                "#text": "Mikhail Korepanov"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#goodnight_moon",
+                "#text": "Goodnight Moon"
+              },
+              {
+                "@href": "http://livingcode.org",
+                "#text": "Dethe Elza"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#fancy",
+                "#text": "Fancy"
+              },
+              {
+                "@href": "http://www.trustweb.it",
+                "#text": "Michele Cipriani"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#textlevels",
+                "#text": "Text Levels"
+              },
+              {
+                "@href": "http://www.patrickmann.com",
+                "#text": "Patrick Mann"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#yelo",
+                "#text": "Yelo"
+              },
+              {
+                "@href": "http://bartdebruin.nl",
+                "#text": "Bart de Bruin"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#spartan",
+                "#text": "Spartan"
+              },
+              {
+                "@href": "http://trentm.com",
+                "#text": "Trent Mick"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#paper",
+                "#text": "paper"
+              },
+              {
+                "@href": "http://daniel-rauber.de",
+                "#text": "Daniel Rauber"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#lucuma",
+                "#text": "Lúcuma"
+              },
+              {
+                "@href": "http://twitter.com/germanmartinez",
+                "#text": "Germán Martínez"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#freshsoda",
+                "#text": "Fresh Soda"
+              },
+              {
+                "@href": "http://jungundwillich.de",
+                "#text": "Jan Ortgies"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#ev",
+                "#text": "Ev"
+              },
+              {
+                "@href": "http://evangeneer.net",
+                "#text": "Mathieu Rochette"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#b4ya11y",
+                "#text": "B4y & A11y"
+              },
+              {
+                "@href": "http://twitter.com/etBen",
+                "#text": "Benoit Klein"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#adaptype",
+                "#text": "Adaptype"
+              },
+              {
+                "@href": "http://vasilis.nl",
+                "#text": "Vasilis van Gemert"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#bleubleu",
+                "#text": "BleuBleu"
+              },
+              {
+                "@href": "http://www.leightonrodney.com",
+                "#text": "Leighton Rodney"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#simpl",
+                "#text": "Simpl"
+              },
+              {
+                "@href": "http://www.neofyt.com",
+                "#text": "Neofyt"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#mitchiru",
+                "#text": "Mitchiru"
+              },
+              {
+                "@href": "http://banquo.de",
+                "#text": "Michael Fritz"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#casoy",
+                "#text": "Casoy"
+              },
+              {
+                "@href": "http://twitter.com/robertboloc",
+                "#text": "Robert Boloc"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#thesimpleswede",
+                "#text": "The Simple Swede"
+              },
+              {
+                "@href": "http://www.tobiasphoto.com",
+                "#text": "Tobias Akeblom"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#photobox",
+                "#text": "PhotoBox"
+              },
+              {
+                "@href": "http://stinkyinkshop.co.uk",
+                "#text": "Stinkyink"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#desktop",
+                "#text": "Desktop"
+              },
+              {
+                "@href": "http://webmolot.com",
+                "#text": "Webmolot"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#monochrome",
+                "#text": "Monochrome"
+              },
+              {
+                "@href": "http://tamerayd.in",
+                "#text": "Tamer Aydin"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#expandable",
+                "#text": "Expandable"
+              },
+              {
+                "@href": "http://twitter.com/curlybrace",
+                "#text": "Dennis Madvedovsky"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#bluebrush",
+                "#text": "BlueBrush"
+              },
+              {
+                "@href": "https://twitter.com/jennyhao",
+                "#text": "Jenny Hao"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#noticeboard",
+                "#text": "Notice Board"
+              },
+              {
+                "@href": "http://www.about.me/niharsawant",
+                "#text": "Nihar Sawant"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#triangulate",
+                "#text": "Triangulate"
+              },
+              {
+                "@href": "http://jumplinkdesign.co.vu",
+                "#text": "Sebastien Paquet"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#aapl",
+                "#text": "AAPL"
+              },
+              {
+                "@href": "http://twitter.com/joffreyjaffeux",
+                "#text": "Joffrey Jaffeux"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#yollaw",
+                "#text": "Yollaw"
+              },
+              {
+                "@href": "http://franzose.in",
+                "#text": "Yan Ivanov"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#stretchy",
+                "#text": "Stretchy"
+              },
+              {
+                "@href": "http://twitter.com/mistadikay",
+                "#text": "Denis Koltsov"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#smile",
+                "#text": "smile"
+              },
+              {
+                "@href": "http://twitter.com/realmuecke",
+                "#text": "Michael Scharnagl"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#toolbar",
+                "#text": "Toolbar"
+              },
+              {
+                "@href": "http://chervonny.ru/en/",
+                "#text": "Maxim Chervonny"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#roundrect",
+                "#text": "Round Rect"
+              },
+              {
+                "@href": "http://www.bitstorm.org",
+                "#text": "Edwin Martin"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#therhythm",
+                "#text": "The Rhythm"
+              },
+              {
+                "@href": "http://kizu.ru/en/",
+                "#text": "Roman Komarov"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#simplebox",
+                "#text": "SimpleBox"
+              },
+              {
+                "@href": "http://raelmax.com",
+                "#text": "Rael Max"
+              }
+            ]
+          },
+          {
+            "a": [
+              {
+                "@href": "#crawl",
+                "#text": "Crawl"
+              },
+              {
+                "@href": "http://atelierbramdehaan.nl",
+                "#text": "Bram de Haan"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "article": {
+    "@role": "main",
+    "header": {
+      "h2": {
+        "abbr": "CSS",
+        "#text": [
+          "The Beauty in",
+          "Design"
+        ]
+      },
+      "p": {
+        "abbr": [
+          {
+            "@title": "Kibibyte",
+            "#text": "K"
+          },
+          "CSS"
+        ],
+        "dfn": {
+          "@title": "1024 bytes",
+          "#text": "Kibibyte"
+        },
+        "#text": [
+          "A demonstration of what can be accomplished with only 1",
+          "(",
+          ") of",
+          ". Select any design from the list to load it\r\n                into this page. You can also navigate back and forth by using the left and right arrow keys."
+        ]
+      }
+    },
+    "section": [
+      {
+        "h2": "So What is This About?",
+        "p": [
+          {
+            "span": {
+              "@id": "zengarden-age",
+              "#text": "a lot of"
+            },
+            "a": [
+              {
+                "@href": "http://mezzoblue.com",
+                "#text": "Dave Shea"
+              },
+              {
+                "@href": "http://www.csszengarden.com",
+                "cite": {
+                  "abbr": "CSS",
+                  "#text": "Zen Garden"
+                }
+              },
+              {
+                "@href": "http://qfox.nl",
+                "#text": "Peter van der Zee"
+              },
+              {
+                "@href": "http://js1k.com",
+                "#text": "JS1k"
+              }
+            ],
+            "abbr": [
+              "CSS",
+              "K"
+            ],
+            "#text": [
+              "Back in 2003 (that's",
+              "years ago!)",
+              "launched the",
+              ". It showcased what\r\n                was possible with",
+              "-based designs, leading to an explosion in the use of CSS on the web.\r\n                Then,",
+              "created",
+              "in 2010,\r\n                a competition to build cool applications with no more than 1",
+              "of JavaScript."
+            ]
+          },
+          {
+            "abbr": [
+              "CSS",
+              "CSS",
+              "CSS"
+            ],
+            "a": {
+              "@href": "http://httparchive.org/interesting.php#bytesperpage",
+              "abbr": [
+                "K",
+                "CSS"
+              ],
+              "#text": [
+                "75",
+                "of"
+              ]
+            },
+            "#text": [
+              "A lot has happened since the Zen Garden days, and today you can do almost anything with only",
+              ". As",
+              "use is growing, so is the average",
+              "file size.\r\n                Popular sites have in average",
+              ", but some use up to a megabyte of style sheets!"
+            ]
+          },
+          {
+            "b": "CSS1K",
+            "#text": [
+              "Do we need that much?",
+              "invites you to show that web developers are more inventive than ever,\r\n                and that limitations can sparkle creativity."
+            ]
+          }
+        ]
+      },
+      {
+        "h2": "Participation",
+        "ol": {
+          "li": [
+            {
+              "abbr": "CSS",
+              "#text": "Submissions must consist of only"
+            },
+            {
+              "abbr": {
+                "@title": "Kibibyte",
+                "#text": "K"
+              },
+              "#text": [
+                "Submissions may be up to 1",
+                "(1024 bytes) minified"
+              ]
+            },
+            {
+              "em": "not",
+              "a": {
+                "@href": "https://leaverou.github.io/prefixfree/",
+                "#text": "PrefixFree"
+              },
+              "#text": [
+                "Vendor prefixes are",
+                "counted to the total number of bytes – submit your code unprefixed\r\n                    and",
+                "will add necesssary prefixes"
+              ]
+            },
+            {
+              "code": [
+                "data",
+                "@font-face",
+                "@import"
+              ],
+              "abbr": "URI",
+              "#text": [
+                "Any external resources and images, including",
+                "'s,",
+                "and",
+                "'s, are forbidden"
+              ]
+            },
+            {
+              "a": {
+                "@href": "http://dowebsitesneedtolookexactlythesameineverybrowser.com",
+                "#text": "does not"
+              },
+              "#text": [
+                "The page",
+                "have to\r\n                    look the same in every browser, but graceful degradation is encouraged"
+              ]
+            },
+            {
+              "a": {
+                "@href": "http://www.opensource.org/licenses/mit-license.php",
+                "#text": "MIT License"
+              },
+              "#text": "The submitted code is licensed under the"
+            }
+          ]
+        },
+        "p": {
+          "a": {
+            "@href": "https://github.com/selfthinker/CSS1K/",
+            "#text": "CSS1K"
+          },
+          "#text": [
+            "To participate, fork",
+            "at GitHub and send your\r\n                submission as a pull request. You are free to update your style at any time by sending a new pull\r\n                request. Please specify the name of the style, your own name, and a URL you want us to link to (such as\r\n                your homepage)."
+          ]
+        }
+      }
+    ]
+  },
+  "footer": {
+    "p": {
+      "a": [
+        {
+          "@href": "http://www.opensource.org/licenses/mit-license.php",
+          "@rel": "license",
+          "#text": "MIT\r\n                license"
+        },
+        {
+          "@href": "https://github.com/selfthinker/CSS1K",
+          "#text": "GitHub"
+        }
+      ],
+      "#text": [
+        "Licensed under the",
+        ".\r\n            Hosted and managed at",
+        "."
+      ]
+    }
+  },
+  "script": [
+    {
+      "@src": "https://code.jquery.com/jquery-3.1.0.min.js"
+    },
+    {
+      "@src": "js/switcher.js"
+    }
+  ]
+}
